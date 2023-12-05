@@ -14,7 +14,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes=[
-  {path:'', component: HomeComponent}
+  {path:'', component: HomeComponent},
+  {path:'about-me', component:AboutMeComponent}
 ]
 
 @NgModule({

@@ -1,0 +1,31 @@
+button{
+    background-color: #A8BDBB;
+}
+button:hover{
+    background-color: white;
+   
+}
+h1{
+    font-size:xx-large;
+    font-weight: bolder;
+    font-family:cursive;
+    color:#422813;
+}
+p{
+    color: #422813;
+    font-size:large;
+    font-family:cursive;
+}
+button{
+    color:#422813;
+    border:#422813;
+    border:solid;
+
+    
+}
+div{
+    background-color: #A8BDBB;
+}
+img{
+    cursor:pointer;
+}

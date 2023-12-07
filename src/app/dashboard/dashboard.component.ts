@@ -22,4 +22,7 @@ export class DashboardComponent {
   goToAboutMe(){
     this.router.navigate(['about-me'])
   }
+  isRootRoute() {
+    return this.router.url === '/';
+  }
 }

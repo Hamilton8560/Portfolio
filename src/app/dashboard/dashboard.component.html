@@ -3,8 +3,8 @@
     <div class=" md:justify-end justify-center flex md:mr-72 space-x-9 md:text-xl text-xs">
         <div class="md:mt-6 space-x-9">
         <button class="cursor-pointer hover:underline text-xl" (click)="backToHome()">Home</button>
-        <button class="cursor-pointer hover:underline text-xl" (click)="scrollTo('footer')" >Portfolio</button>
-        <button class="cursor-pointer hover:underline text-xl "(click)="goToAboutMe()" >About me</button>
+        <button *ngIf="isRootRoute()" class="cursor-pointer hover:underline text-xl" (click)="scrollTo('footer')" >Portfolio</button>
+        <button *ngIf="isRootRoute()" class="cursor-pointer hover:underline text-xl "(click)="goToAboutMe()" >About me</button>
     </div>
     </div>
 </div>

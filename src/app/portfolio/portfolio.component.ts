@@ -9,4 +9,8 @@ export class PortfolioComponent {
   openExternalUrl(){
     window.open('https://www.femexercise.pro', '_blank');
   }
+
+  openExternalUrlForGithub(){
+    window.open('https://github.com/Hamilton8560/LearnMath', '_blank');
+  }
 }

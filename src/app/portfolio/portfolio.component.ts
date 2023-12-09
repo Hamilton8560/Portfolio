@@ -11,6 +11,6 @@ export class PortfolioComponent {
   }
 
   openExternalUrlForGithub(){
-    window.open('https://github.com/Hamilton8560/LearnMath', '_blank');
+    window.open('https://endearing-gumdrop-61e35c.netlify.app/', '_blank');
   }
 }

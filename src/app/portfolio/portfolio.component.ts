@@ -11,6 +11,6 @@ export class PortfolioComponent {
   }
 
   openExternalUrlForGithub(){
-    window.open('https://endearing-gumdrop-61e35c.netlify.app/', '_blank');
+    window.open('https://main--endearing-gumdrop-61e35c.netlify.app/', '_blank');
   }
 }
